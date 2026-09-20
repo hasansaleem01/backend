@@ -1,20 +1,18 @@
 {
-  "name": "deploymentbackend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "an app to deploy",
+  "description": "backend using mern",
   "keywords": [
     "node",
+    "js",
+    "javascript",
     "backend"
   ],
   "license": "ISC",
-  "author": "Hasan",
+  "author": "Hasan Saleem",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "dotenv": "^18.0.1",
-    "express": "^5.2.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
