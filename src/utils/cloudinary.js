@@ -20,10 +20,4 @@ try {
   fs.unlinkSync(localFilePath) // remove the locally saved temporrary saved files as the upload operation gets failed
 }
 }
-cloudinary.v2.uploader
-.upload("dog.mp4", {
-  resource_type: "video", 
-  public_id: "my_dog",
-  overwrite: true, 
-  notification_url: "https://mysite.example.com/notify_endpoint"})
-.then(result=>console.log(result));
+export { uploadonCloudinary };
