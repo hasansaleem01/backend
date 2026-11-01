@@ -48,7 +48,7 @@ const existingUser = await User.findOne({
 })
 
 if(existingUser){
-    throw new ApiError(409, "User already exists");
+    throw new ApiError(409, "User already existing in databse");
 }
 
 const avatarLocalPath = req.files?.avatar[0]?.path;
